@@ -1,0 +1,18 @@
+{
+	"compilerOptions": {
+		"outDir": "./dist",
+		"module": "ESNext",
+		"moduleResolution": "node",
+		"strict": true,
+		"allowSyntheticDefaultImports": true,
+		"jsx": "react-jsx",
+		"jsxImportSource": "preact",
+		"declaration": true,
+		"lib": ["ESNext", "DOM"],
+		"target": "ESNext",
+		"typeRoots": ["./src/types"],
+		"types": ["vite/client", "preact"]
+	},
+	"include": ["src/**/*"],
+	"exclude": ["src/**/*.stories.*", "node_modules"]
+}
